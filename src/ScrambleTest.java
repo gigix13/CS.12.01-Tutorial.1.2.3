@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -22,6 +23,9 @@ class ScrambleTest {
 
     }
 
+    private void assertEquals(String barcadabara, String abracadabra) {
+    }
+
     @Test
     void scrambleOrRemove() {
 
@@ -32,5 +36,8 @@ class ScrambleTest {
         assertEquals("TNA", wordList.get(0));
         assertEquals("BARCADABARA", wordList.get(1));
         assertEquals("PAPLE", wordList.get(2));
+    }
+
+    private void assertEquals(int i, int size) {
     }
 }
