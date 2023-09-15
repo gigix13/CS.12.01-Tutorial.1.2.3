@@ -23,8 +23,6 @@ class ScrambleTest {
 
     }
 
-    private void assertEquals(String barcadabara, String abracadabra) {
-    }
 
     @Test
     void scrambleOrRemove() {
@@ -38,6 +36,5 @@ class ScrambleTest {
         assertEquals("PAPLE", wordList.get(2));
     }
 
-    private void assertEquals(int i, int size) {
-    }
+
 }
